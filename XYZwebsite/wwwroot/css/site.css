@@ -1,0 +1,710 @@
+﻿.container {
+    margin: auto;
+    padding: 0 1.5rem;
+    max-width: 1280px;
+}
+
+.lead {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 0 0 2rem;
+    text-align: center;
+    color: #333;
+}
+
+button {
+    color: #333;
+    background-color: #f4f4f4;
+    width: 150px;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+}
+
+    button:hover {
+        background-color: #CEDEF7;
+        cursor: pointer;
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Nunito', sans-serif;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+}
+
+ul {
+    list-style: none;
+}
+
+h2, h3, h4 {
+    text-transform: uppercase;
+}
+
+img {
+    width: 100%;
+}
+
+.quote {
+    font-size: 2.5rem;
+    font-style: italic;
+}
+
+nav {
+    height: 5rem;
+    z-index: 1;
+}
+
+    nav .main-nav {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        padding-top: 1rem;
+        background-color: transparent;
+    }
+
+        nav .main-nav .logo {
+            width: 75px;
+        }
+
+        nav .main-nav ul {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+        }
+
+        nav .main-nav li {
+            padding: 1rem 1.5rem;
+            text-transform: uppercase;
+        }
+
+            nav .main-nav li .login {
+                color: #333;
+                padding-right: 0.6rem;
+            }
+
+        nav .main-nav a {
+            border-bottom: 3px transparent solid;
+            padding-bottom: 0.5rem;
+            -webkit-transition: border-color 0.5s;
+            transition: border-color 0.5s;
+        }
+
+            nav .main-nav a:hover {
+                border-color: #CBD3E6;
+            }
+
+            nav .main-nav a.current {
+                border-color: #CEDEF7;
+            }
+
+#header-home {
+    background-position: center;
+    background-image: url(../images/architecture-bridge-brooklyn-bridge-buildings-421927.jpg);
+    background-size: cover;
+    position: relative;
+    top: -5rem;
+    z-index: -1;
+    width: 100%;
+    height: 100vh;
+}
+
+    #header-home .header-main-content {
+        text-align: center;
+        padding-top: 40%;
+        color: #333;
+    }
+
+        #header-home .header-main-content h1 {
+            color: #333;
+            font-size: 4rem;
+        }
+
+#header-other {
+    background-image: url(../images/architecture-bridge-brooklyn-bridge-buildings-421927.jpg);
+    background-size: cover;
+    position: relative;
+    top: -5rem;
+    z-index: -1;
+    height: 16rem;
+    border-bottom: 3px solid #CEDEF7;
+    background-position: center;
+    width: 100%;
+    background-position: 20% 48%;
+}
+
+.showcase0, .showcase2, .showcase4, .showcase6 {
+    height: 400px;
+}
+
+    .showcase0 .showcase-inner, .showcase2 .showcase-inner, .showcase4 .showcase-inner, .showcase6 .showcase-inner {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        padding-top: 8rem;
+        text-align: center;
+        color: #333;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+
+        .showcase0 .showcase-inner i, .showcase2 .showcase-inner i, .showcase4 .showcase-inner i, .showcase6 .showcase-inner i {
+            font-size: 5rem;
+            color: #CBD3E6;
+        }
+
+        .showcase0 .showcase-inner p, .showcase2 .showcase-inner p, .showcase4 .showcase-inner p, .showcase6 .showcase-inner p {
+            padding: 0 2rem;
+        }
+
+.showcase {
+    background-size: cover;
+    height: 70vh;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+    .showcase .text-box {
+        padding-top: 14rem;
+    }
+
+        .showcase .text-box h2 {
+            text-align: right;
+            padding-right: 4rem;
+            color: #f4f4f4;
+            text-shadow: 2px 2px #41414d;
+        }
+
+.showcase1 {
+    background-image: url(../images/low-angle-cable-bridge-843264.jpg);
+}
+
+.showcase3 {
+    background-image: url(../images/landscape-splash.jpg);
+}
+
+    .showcase3 .text-box h2 {
+        text-align: center;
+    }
+
+.showcase5 {
+    background-image: url(../images/beach-during-day-2941017.jpg);
+}
+
+    .showcase5 .text-box h2 {
+        text-align: left;
+        padding-left: 4rem;
+    }
+
+.showcase7 {
+    background-image: url(../images//blue-close-up-colors-cracks-866351.jpg);
+}
+
+    .showcase7 .text-box h2 {
+        text-align: center;
+        padding-left: 4rem;
+    }
+
+.showcase8 .showcase-inner {
+    text-align: center;
+}
+
+.showcase8 img {
+    height: auto;
+    width: 100px;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+footer {
+    background-image: url(../images/architecture-bridge-brooklyn-bridge-buildings-421927.jpg);
+    background-size: cover;
+    background-position: 20% 100%;
+    height: 3.5rem;
+    border-top: 3px solid #CEDEF7;
+    padding: 1rem 0;
+    color: #CBD3E6;
+}
+
+    footer .footer {
+        font-weight: 100;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        height: 4rem;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+    footer .fab {
+        color: #CBD3E6;
+        border: 1.5px solid #CBD3E6;
+        border-radius: 50%;
+        height: 30px;
+        width: 30px;
+    }
+
+        footer .fab:hover {
+            background-color: #CEDEF7;
+            color: #375770;
+        }
+
+.presentation {
+    margin-top: 3rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 5rem;
+}
+
+    .presentation img {
+        width: 40%;
+    }
+
+    .presentation .biography {
+        color: #333;
+        padding: 2rem 3rem;
+    }
+
+.testimonials {
+    margin-top: 4rem;
+}
+
+.testimonials-inner {
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+    .testimonials-inner .testimonial-text {
+        border: 1px dotted #CBD3E6;
+        padding: 1rem;
+        margin: 2.5rem 0.5rem 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .testimonials-inner ul {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: distribute;
+        justify-content: space-around;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 0.5rem 1.5rem 4rem;
+    }
+
+        .testimonials-inner ul img {
+            -o-object-fit: cover;
+            object-fit: cover;
+            border-radius: 50%;
+            height: 80px;
+            width: 80px;
+        }
+
+.contact form .form-inputs {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 1.5rem;
+    grid-template-areas: "name email" "subject phone" "message message";
+    margin-top: 3rem;
+}
+
+    .contact form .form-inputs input {
+        padding: 0.5rem;
+    }
+
+    .contact form .form-inputs .message {
+        height: 100px;
+    }
+
+    .contact form .form-inputs .name {
+        -ms-grid-row: 1;
+        -ms-grid-column: 1;
+        grid-area: name;
+    }
+
+    .contact form .form-inputs .email {
+        -ms-grid-row: 1;
+        -ms-grid-column: 2;
+        grid-area: email;
+    }
+
+    .contact form .form-inputs .subject {
+        -ms-grid-row: 2;
+        -ms-grid-column: 1;
+        grid-area: subject;
+    }
+
+    .contact form .form-inputs .phone {
+        -ms-grid-row: 2;
+        -ms-grid-column: 2;
+        grid-area: phone;
+    }
+
+    .contact form .form-inputs .message {
+        -ms-grid-row: 3;
+        -ms-grid-column: 1;
+        -ms-grid-column-span: 2;
+        grid-area: message;
+    }
+
+.contact form button {
+    background-color: #CEDEF7;
+    color: #333;
+    width: 100%;
+    padding: 0.8rem 1.2rem;
+    border: none;
+    margin: 1rem auto 3rem;
+}
+
+    .contact form button:hover {
+        color: #CEDEF7;
+        background-color: #333;
+    }
+
+.register {
+    color: #333;
+    text-align: center;
+}
+
+    .register .form-inputs {
+        margin-top: 3rem;
+    }
+
+        .register .form-inputs label {
+            display: block;
+            font-size: 0.9rem;
+        }
+
+        .register .form-inputs input {
+            padding: 0.5rem;
+            margin: 0.2rem auto 1.2rem auto;
+            width: 300px;
+            text-align: center;
+        }
+
+    .register button {
+        background-color: #CEDEF7;
+        color: #333;
+        width: 150px;
+        padding: 0.8rem 1.2rem;
+        border: none;
+        margin: 3rem auto 1rem auto;
+    }
+
+        .register button:hover {
+            color: #CEDEF7;
+            background-color: #333;
+        }
+
+    .register p {
+        margin-bottom: 5rem;
+    }
+
+        .register p a {
+            color: #375770;
+        }
+
+.items {
+    margin: 3rem 0;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.item {
+    position: relative;
+    background-color: #CEDEF7;
+    overflow: hidden;
+}
+
+    .item::after {
+        content: '';
+        position: absolute;
+        display: block;
+        background-color: inherit;
+        opacity: 0.9;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
+        transform: scale(2) translateX(-75%) translateY(-75%) rotate(-28deg);
+        -webkit-transition: -webkit-transform 3s cubic-bezier(0.2, 1, 0.3, 1);
+        transition: -webkit-transform 3s cubic-bezier(0.2, 1, 0.3, 1);
+        transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1);
+        transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 3s cubic-bezier(0.2, 1, 0.3, 1);
+    }
+
+    .item:hover:after {
+        -webkit-transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
+        transform: scale(2) translateX(0) translateY(0) rotate(-28deg);
+        -webkit-transition: -webkit-transform 3s cubic-bezier(0.2, 1, 0.3, 1);
+        transition: -webkit-transform 3s cubic-bezier(0.2, 1, 0.3, 1);
+        transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1);
+        transition: transform 3s cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 3s cubic-bezier(0.2, 1, 0.3, 1);
+    }
+
+    .item:hover .item-img {
+        -webkit-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    .item:hover .item-text {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+
+.item-img {
+    height: auto;
+    display: block;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-transition: -webkit-transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
+    transition: -webkit-transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
+    transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
+    transition: transform 750ms cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 750ms cubic-bezier(0.2, 1, 0.3, 1);
+}
+
+    .item-img:before {
+        content: '';
+        display: block;
+        padding-top: 75%;
+        overflow: hidden;
+    }
+
+    .item-img img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: auto;
+        line-height: 0;
+    }
+
+.item-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    text-align: center;
+    color: #375770;
+    z-index: 1;
+    -webkit-transform: translateZ(-20%);
+    transform: translateZ(-20%);
+    -webkit-transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
+    transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
+    transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
+    transition: opacity 500ms cubic-bezier(0.2, 1, 0.3, 1), transform 500ms cubic-bezier(0.2, 1, 0.3, 1), -webkit-transform 500ms cubic-bezier(0.2, 1, 0.3, 1);
+    -webkit-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+
+.item-text-wrap {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.item-title {
+    font-size: 2rem;
+    padding: 0 1rem;
+    margin: 5px 0 0 0;
+}
+
+.item-description {
+    font-size: 1.2rem;
+    opacity: 0.7;
+    margin: 0;
+}
+
+.search {
+    margin: 3rem auto 4rem auto;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    .search button {
+        color: #333;
+        background-color: #CEDEF7;
+        width: 150px;
+        padding: 0.8rem 1.2rem;
+        border: none;
+        margin-top: 1rem;
+    }
+
+        .search button:hover {
+            background-color: #CBD3E6;
+        }
+
+.search-box {
+    width: 250px;
+    height: 40px;
+    margin-top: 1rem;
+    border: 1px solid #CBD3E6;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 0 0 0.4rem;
+}
+
+    .search-box input {
+        width: 220px;
+        height: 40px;
+        margin: 0;
+        border: 1px dotted transparent;
+        outline: none;
+    }
+
+    .search-box .btn-icon {
+        width: 40px;
+        height: 30px;
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        outline: none;
+    }
+
+        .search-box .btn-icon:hover {
+            background-color: transparent;
+            outline: none;
+            cursor: pointer;
+        }
+
+        .search-box .btn-icon i {
+            font-size: 1.3rem;
+            color: #CEDEF7;
+        }
+
+            .search-box .btn-icon i:hover {
+                color: #CBD3E6;
+            }
+
+.products {
+    margin: 3rem 0;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    color: #333;
+}
+
+.product {
+    position: relative;
+    overflow: hidden;
+    padding: 3rem;
+}
+
+    .product .price {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: end;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+    }
+
+        .product .price i {
+            padding: 0.3rem 1rem 0;
+        }
+
+.my-account {
+    border: 1px solid #f4f4f4;
+    background-color: #CEDEF7;
+    margin: 3rem 5rem;
+    padding: 1rem;
+}
+
+    .my-account h3 {
+        font-size: 1.3rem;
+        text-align: left;
+        padding: 0.5rem 0;
+    }
+
+    .my-account .addresses {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        justify-content: left;
+    }
+
+        .my-account .addresses .shipping, .my-account .addresses .billing {
+            margin-right: 3rem;
+        }
+
+    .my-account .contact {
+        width: 500px;
+        display: -ms-grid;
+        display: grid;
+        grid-template-columns: 180px 500px;
+        justify-items: start;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center;
+    }
+
+.order-titles {
+    font-weight: 900;
+}
+
+.order-details {
+    width: 900px;
+    display: -ms-grid;
+    display: grid;
+    grid-template-columns: 180px 190px 150px 200px 200px;
+    justify-items: start;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+    .order-details i {
+        color: #375770;
+    }
+/*# sourceMappingURL=custom.css.map */

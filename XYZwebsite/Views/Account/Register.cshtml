@@ -1,0 +1,47 @@
+﻿@model XYZwebsite.Models.User
+
+@{
+    ViewData["Title"] = "Register";
+}
+
+    <main>
+        <header id="header-other">
+            <div class="container">
+            </div>
+        </header>
+
+
+        <div class="container register">
+            <h2>Create Account</h2>
+            <div class="contact-form">
+                <form asp-action="Register" class="register">
+                    <div asp-validation-summary="ModelOnly"></div>
+                    <div class="form-inputs">
+                        <div>
+                            <label asp-for="FirstName" class="">First Name</label>
+                            <input asp-for="FirstName" type="text" name="firstname" required>
+                            <span asp-validation-for="FirstName"></span>
+                        </div>
+                        <div>
+                            <label asp-for="LastName" class="">Last Name</label>
+                            <input asp-for="LastName" type="text" name="lastname" required>
+                            <span asp-validation-for="LastName"></span>
+                        </div>
+                        <div>
+                            <label asp-for="Email" class="">Email Address</label>
+                            <input asp-for="Email" type="email" name="email" required>
+                            <span asp-validation-for="Email"></span>
+                        </div>
+                        <div>
+                            <label asp-for="Password" class="">Password</label>
+                            <input asp-for="Password" type="password" placeholder="min 6 characters" name="password" minlength="6" required>
+                            <span asp-validation-for="Password"></span>
+                        </div>
+                    </div>
+
+                    <button type="submit" value="Create">Register</button>
+                </form>
+                <p>Already a member? <a asp-area="" asp-controller="Account" asp-action="Login">Log in here</a></p>
+            </div>
+        </div>
+    </main>
