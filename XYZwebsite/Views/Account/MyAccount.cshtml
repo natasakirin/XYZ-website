@@ -1,0 +1,166 @@
+﻿@model XYZwebsite.Models.User
+
+@{
+    ViewData["Title"] = "MyAccount";
+}
+
+
+<main>
+
+    <header id="header-other">
+        <div class="container">
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>Welcome User </h2>
+        <p class="lead">Your account</p>
+
+        <!-- Contact information -->
+        <div class="my-account">
+            <h3>Contact information</h3>
+            <div class="contact">
+                <p>@Html.DisplayNameFor(model => model.Id)</p>
+                <p>@Html.DisplayFor(model => model.Id)</p>
+            </div>
+            <div class="contact">
+                <p>@Html.DisplayNameFor(model => model.FirstName)</p>
+                <p>@Html.DisplayFor(model => model.FirstName)</p>
+            </div>
+            <div class="contact">
+                <p>@Html.DisplayNameFor(model => model.LastName)</p>
+                <p>@Html.DisplayFor(model => model.LastName)</p>
+            </div>            
+            <div class="contact">
+                <p>@Html.DisplayNameFor(model => model.FullName)</p>
+                <p>@Html.DisplayFor(model => model.FullName)</p>
+            </div>
+            <div class="contact">
+                <p>@Html.DisplayNameFor(model => model.Email)</p>
+                <p>@Html.DisplayFor(model => model.Email)</p>
+            </div>
+            <div class="contact">
+                <p>@Html.DisplayNameFor(model => model.Password)</p>
+                <p>@Html.DisplayFor(model => model.Password)</p>
+            </div>
+        </div>
+
+        <div>
+            <p>
+                @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ })  |  <a asp-action="Index">Back to List</a>
+            </p>
+        </div>
+    </div>
+</main>
+
+
+
+
+
+
+@* FINAL VERSION WILL BE MORE LIKE THIS *@
+
+<main>
+    <div class="container">
+        <h2>Welcome User </h2>
+        <p class="lead">Your account</p>
+
+
+        <!-- My orders -->
+        <div class="my-account">
+            <h3 class="lead">My Orders</h3>
+            <div class="order-titles order-details">
+                <p>ORDER NO</p>
+                <p>DATE ORDERED</p>
+                <p>AMOUNT</p>
+                <p>ORDER STATUS</p>
+                <p>More details</p>
+            </div>
+
+            <div class="order-details">
+                <p>123456789</p>
+                <p>02/01/2020</p>
+                <p>€ 100,00</p>
+                <p>In transit</p>
+                <p><a href="#"><i class="fas fa-info-circle"></i></a></p>
+            </div>
+
+            <div class="order-details">
+                <p>223456789</p>
+                <p>01/01/2020</p>
+                <p>€ 120,00</p>
+                <p>Cancelled</p>
+                <p><a href="#"><i class="fas fa-info-circle"></i></a></p>
+            </div>
+
+        </div>
+
+
+        <!-- Contact information -->
+        <div class="my-account">
+            <h3>Contact information</h3>
+            <div class="contact">
+                <p>NAME:</p>
+                <p>Full Name</p>
+            </div>
+            <div class="contact">
+                <p>EMAIL:</p>
+                <p>email@address.xx</p>
+            </div>
+        </div>
+
+        <!-- Address book -->
+        <div class="my-account address-book">
+            <h3>Address Book</h3>
+
+            <div class="addresses">
+                <div class="shipping">
+                    <h3>Shipping Address</h3>
+                    <div class="contact">
+                        <p>FULL NAME:</p>
+                        <p>Full Name</p>
+                    </div>
+                    <div class="contact">
+                        <p>STREET ADDRESS:</p>
+                        <p>Street number 0</p>
+                    </div>
+                    <div class="contact">
+                        <p>CITY</p>
+                        <p>City</p>
+                    </div>
+                    <div class="contact">
+                        <p>POSTAL CODE</p>
+                        <p>12345</p>
+                    </div>
+                    <div class="contact">
+                        <p>COUNTRY</p>
+                        <p>Sweden</p>
+                    </div>
+                </div>
+                <div class="billing">
+                    <h3>Billing Address</h3>
+                    <div class="contact">
+                        <p>FULL NAME:</p>
+                        <p>Full Name</p>
+                    </div>
+                    <div class="contact">
+                        <p>STREET ADDRESS:</p>
+                        <p>Street number 0</p>
+                    </div>
+                    <div class="contact">
+                        <p>CITY</p>
+                        <p>City</p>
+                    </div>
+                    <div class="contact">
+                        <p>POSTAL CODE</p>
+                        <p>12345</p>
+                    </div>
+                    <div class="contact">
+                        <p>COUNTRY</p>
+                        <p>Sweden</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
